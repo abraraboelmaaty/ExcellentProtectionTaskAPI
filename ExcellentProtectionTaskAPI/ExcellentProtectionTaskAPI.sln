@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcellentProtectionTaskAPI", "ExcellentProtectionTaskAPI\ExcellentProtectionTaskAPI.csproj", "{7F67D7B2-7BA4-4FDE-AAAD-3248B6ABE37D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F67D7B2-7BA4-4FDE-AAAD-3248B6ABE37D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F67D7B2-7BA4-4FDE-AAAD-3248B6ABE37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F67D7B2-7BA4-4FDE-AAAD-3248B6ABE37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F67D7B2-7BA4-4FDE-AAAD-3248B6ABE37D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84D3081A-5C03-409F-9735-6C10D81CBBFA}
+	EndGlobalSection
+EndGlobal
