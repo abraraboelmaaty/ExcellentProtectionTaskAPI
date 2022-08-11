@@ -1,6 +1,6 @@
 using ExcellentProtectionTaskAPI.Data;
-//using ExcellentProtectionTaskAPI.Models;
-//using ExcellentProtectionTaskAPI.Repositories;
+using ExcellentProtectionTaskAPI.Models;
+using ExcellentProtectionTaskAPI.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 /* API and web clients will share data through this variable */
@@ -15,8 +15,8 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<Entites>(e => e
                 .UseSqlServer(builder.Configuration.GetConnectionString("EXPConn"))
                 .UseEnumCheckConstraints());
-//builder.Services.AddScoped<IRepository<Payment>, PaymentRepo>();
-//builder.Services.AddScoped<IRepository<Order>, OrderRepo>();
+builder.Services.AddScoped<IRepository<Payment>, PaymentRepo>();
+builder.Services.AddScoped<IRepository<Order>, OrderRepo>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
